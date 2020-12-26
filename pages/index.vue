@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <Logo />
-    <h1 class="title">Kamal Daniels</h1>
+    <Intro />
     <div class="links">
       <a
         href="https://github.com/kamaldaniels"
@@ -29,9 +28,8 @@ export default {}
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 300;
+  font-family: $font1;
+  font-weight: 600;
   font-size: 5rem;
   color: $text;
   letter-spacing: 1px;

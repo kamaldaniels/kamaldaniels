@@ -33,7 +33,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Raleway&display=swap',
+          'https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600&display=swap',
       },
     ],
   },
