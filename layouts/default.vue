@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <Nuxt />
 </template>
 
 <style lang="scss">
 html {
   font-family: $font2;
-  font-size: 16px;
+  font-size: 8px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -21,5 +19,9 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.content {
+  padding: 0 2rem;
 }
 </style>
