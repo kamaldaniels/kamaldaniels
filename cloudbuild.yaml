@@ -4,7 +4,12 @@ steps:
     entrypoint: yarn
     args: ["install"]
 
-  # run unit tests
+  # lint checks
+  - name: node:14
+    entrypoint: yarn
+    args: ["lint"]
+
+  # unit tests
   - name: node:14
     entrypoint: yarn
     args: ["test"]
@@ -14,7 +19,7 @@ steps:
     entrypoint: yarn
     args: ["build"]
 
-  # run e2e tests on build
+  # e2e tests on build
   - name: cypress/base:14
     entrypoint: yarn
     args: ["e2e:ci"]
