@@ -1,6 +1,6 @@
-# kamaldaniels
+# kamaldaniels.com
 
-## Build Setup
+## Frontend commands
 
 ```bash
 # install dependencies
@@ -13,8 +13,9 @@ $ yarn dev
 $ yarn build
 $ yarn start
 
+# run unit tests
+$ yarn test
+
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
