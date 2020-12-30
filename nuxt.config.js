@@ -60,6 +60,12 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['@nuxtjs/style-resources', 'nuxt-helmet'],
 
+  // helmet options
+  // @see https://helmetjs.github.io/docs/
+  helmet: {
+    contentSecurityPolicy: {},
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     /*
