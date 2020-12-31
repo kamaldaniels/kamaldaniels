@@ -1,13 +1,14 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: { lang: 'en' },
     title: 'kamaldaniels.com',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'kamaldaniels.com by Kamal Daniels',
-        name: 'kamaldaniels.com by Kamal Daniels',
+        hid: 'description',
+        name: 'description',
         content: 'kamaldaniels.com by Kamal Daniels',
       },
     ],
