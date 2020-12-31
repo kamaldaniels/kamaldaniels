@@ -62,8 +62,32 @@ export default {
 
   // helmet options
   // @see https://helmetjs.github.io/docs/
-  helmet: {
-    contentSecurityPolicy: {},
+  helmet: {},
+
+  render: {
+    csp: {
+      hashAlgorithm: 'sha256',
+      policies: {
+        'default-src': ["'none'"],
+        'base-uri': ["'self'"],
+        'font-src': ["'self'", 'https://fonts.gstatic.com'],
+        'frame-ancestors': ["'self'"],
+        'connect-src': ["'self'"],
+        'manifest-src': ["'self'"],
+        'img-src': ["'self'", 'data:'],
+        'object-src': ["'none'"],
+        'script-src': ["'self'"],
+        'script-src-attr': ["'none'"],
+        'style-src': [
+          "'self'",
+          "'unsafe-inline'",
+          'https://fonts.googleapis.com',
+        ],
+        'block-all-mixed-content': [],
+        'upgrade-insecure-requests': [],
+      },
+      addMeta: false,
+    },
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
