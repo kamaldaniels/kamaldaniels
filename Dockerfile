@@ -8,6 +8,6 @@ RUN yarn
 COPY . .
 EXPOSE 3000
 
-RUN yarn build
+RUN yarn build:modern
 
-CMD [ "yarn", "start" ]
+CMD [ "yarn", "start:modern" ]
