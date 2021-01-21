@@ -18,14 +18,8 @@ export default {}
   &__wrapper {
     background-color: $primary;
     background: linear-gradient(160deg, $primary-light 0%, $primary-dark 100%);
-    border-radius: $radius1;
-    margin: 1rem;
     padding: 6rem 2rem;
     text-align: center;
-
-    @media (min-width: $tablet) {
-      margin: 3rem;
-    }
   }
 
   h1,
