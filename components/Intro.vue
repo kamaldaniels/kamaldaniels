@@ -4,7 +4,10 @@
       <p>Hi 👋</p>
       <h1>My name's Kamal Daniels and this is my website.</h1>
       <img src="~/assets/images/gummy-programming.svg" alt="Programming" />
-      <p></p>
+      <p class="subtitle">
+        I'm currently working at
+        <a href="https://findothers.com">Find Others</a>
+      </p>
     </div>
   </div>
 </template>
@@ -37,10 +40,14 @@ export default {}
     margin-bottom: 2rem;
   }
 
+  .subtitle {
+    font-size: 2.5rem;
+  }
+
   img {
     max-width: 80%;
     max-height: 30rem;
-    margin-top: 6rem;
+    margin: 6rem 0;
   }
 }
 </style>
