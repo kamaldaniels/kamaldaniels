@@ -1,21 +1,5 @@
-# kamaldaniels.com
+# Kamal Daniels
 
-## Frontend commands
+I'm a software developer currently working at [Find Others](https://findothers.com).
 
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# run unit tests
-$ yarn test
-
-# generate static project
-$ yarn generate
-```
+Check out my personal website: [Kamal Daniels](https://kamaldaniels.com).
