@@ -1,21 +1,21 @@
 steps:
   # install dependencies
-  - name: node:14
+  - name: node:14-slim
     entrypoint: yarn
     args: ["install"]
 
   # lint checks
-  - name: node:14
+  - name: node:14-slim
     entrypoint: yarn
     args: ["lint"]
 
   # unit tests
-  - name: node:14
+  - name: node:14-slim
     entrypoint: yarn
     args: ["test"]
 
   # build
-  - name: node:14
+  - name: node:14-slim
     entrypoint: yarn
     args: ["build"]
 
