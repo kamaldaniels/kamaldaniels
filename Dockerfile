@@ -1,5 +1,8 @@
-FROM node:14
+FROM node:14-alpine
 
+RUN apk add ca-certificates
+
+ENV NODE_ENV=production
 WORKDIR /usr/src/app
 
 COPY package.json ./
