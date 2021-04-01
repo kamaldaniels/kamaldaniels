@@ -12,6 +12,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:vue/recommended',
     'plugin:prettier/recommended',
+    'plugin:cypress/recommended',
   ],
   plugins: ['prettier', 'cypress'],
   // add your custom rules here
