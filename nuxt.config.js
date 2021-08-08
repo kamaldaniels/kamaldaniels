@@ -33,8 +33,7 @@ export default {
       { rel: 'manifest', href: '/site.webmanifest' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600&display=swap',
       },
     ],
   },
@@ -93,6 +92,11 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-property-in-object', { loose: true }],
+      ],
+    },
     /*
      ** You can extend webpack config here
      */
@@ -108,7 +112,6 @@ export default {
       }
     },
   },
-
   server: {
     port: 3000,
     host: '0.0.0.0',
