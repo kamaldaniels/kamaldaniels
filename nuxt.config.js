@@ -33,8 +33,7 @@ export default {
       { rel: 'manifest', href: '/site.webmanifest' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600&display=swap',
       },
     ],
   },
@@ -113,7 +112,6 @@ export default {
       }
     },
   },
-
   server: {
     port: 3000,
     host: '0.0.0.0',
