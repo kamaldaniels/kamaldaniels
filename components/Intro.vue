@@ -4,10 +4,6 @@
       <p>Hi 👋</p>
       <h1>My name's Kamal Daniels and this is my website.</h1>
       <img src="~/assets/images/gummy-programming.svg" alt="Programming" />
-      <p class="subtitle">
-        I'm currently working at
-        <a href="https://findothers.com">Find Others</a>
-      </p>
     </div>
   </div>
 </template>
