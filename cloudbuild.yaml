@@ -1,25 +1,25 @@
 steps:
   # install dependencies
-  - name: node:14-slim
+  - name: node:16-slim
     entrypoint: yarn
-    args: ["install"]
+    args: ['install']
 
   # lint checks
-  - name: node:14-slim
+  - name: node:16-slim
     entrypoint: yarn
-    args: ["lint"]
+    args: ['lint']
 
   # unit tests
-  - name: node:14-slim
+  - name: node:16-slim
     entrypoint: yarn
-    args: ["test"]
+    args: ['test']
 
   # build
-  - name: node:14-slim
+  - name: node:16-slim
     entrypoint: yarn
-    args: ["build"]
+    args: ['build']
 
   # e2e tests on build
   - name: cypress/base:14
     entrypoint: yarn
-    args: ["e2e:ci"]
+    args: ['e2e:ci']
