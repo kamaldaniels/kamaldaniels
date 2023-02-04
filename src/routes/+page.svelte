@@ -24,7 +24,8 @@
 	}
 
 	img {
-		width: 26rem;
+		height: 361.5px;
+		width: 416.25px;
 		max-width: 80%;
 	}
 
