@@ -24,8 +24,9 @@
 	}
 
 	img {
-		height: 361.5px;
 		width: 416.25px;
+		height: auto;
+		aspect-ratio: 555/482;
 		max-width: 80%;
 	}
 
