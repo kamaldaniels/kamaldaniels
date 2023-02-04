@@ -1,3 +1,13 @@
+name: 'Code Scanning - Action'
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '50 23 * * 6'
+
 jobs:
   CodeQL-Build:
     runs-on: ubuntu-latest
