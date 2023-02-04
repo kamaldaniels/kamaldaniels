@@ -8,7 +8,7 @@ on:
     branches: [main]
 
 jobs:
-  E2E Tests:
+  E2E-Tests:
     name: Run playwright end-to-end tests
     runs-on: ubuntu-latest
     steps:
