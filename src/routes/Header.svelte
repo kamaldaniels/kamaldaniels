@@ -107,7 +107,7 @@
 		align-items: center;
 		padding: 0 0.5rem;
 		color: var(--color-text);
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;

@@ -1,11 +1,9 @@
 <script>
-	import Header from './Header.svelte';
+	import '@fontsource/raleway/400.css';
+	import '@fontsource/raleway/600.css';
 	import './styles.css';
+	import Header from './Header.svelte';
 </script>
-
-<svelte:head>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:wght" rel="stylesheet" />
-</svelte:head>
 
 <div class="app">
 	<Header />
