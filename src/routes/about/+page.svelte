@@ -20,4 +20,16 @@
 		field, I hope you'll find this site informative and entertaining. Feel free to take a look
 		around and let me know what you think!
 	</p>
+	<p class="credit">
+		Written by <a href="https://openai.com/blog/chatgpt/" target="_blank" rel="noopener noreferrer"
+			>ChatGPT</a
+		>
+	</p>
 </div>
+
+<style>
+	.credit {
+		font-size: 0.8em;
+		margin: 0.5rem 0;
+	}
+</style>
