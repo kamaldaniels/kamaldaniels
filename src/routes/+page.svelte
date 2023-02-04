@@ -25,6 +25,10 @@
 
 	img {
 		width: 26rem;
-		max-width: 100%;
+		max-width: 80%;
+	}
+
+	p {
+		text-align: center;
 	}
 </style>

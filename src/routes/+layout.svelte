@@ -23,7 +23,7 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem 2rem;
+		padding: 1rem 1rem;
 		width: 100%;
 		max-width: 60rem;
 		margin: 0 auto;
